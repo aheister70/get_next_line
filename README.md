@@ -6,9 +6,11 @@ Prototype: int get_next_line(int fd, char ** line);
 
 Char ** line = the address of a pointer to a character to be used to store the line read.
 
+
 Static variable(s) are allowed
 
 Life time of a static variable is the entire run of a program. Allocation is during compilation.
+
 
 Memory leaks
 
