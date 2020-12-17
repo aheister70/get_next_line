@@ -11,3 +11,7 @@ Static variable(s) are allowed: Life time of a static variable is the entire run
 
 
 Memory leaks: system("leaks a.out"); By putting this in your main file, you will see if your program has memory leaks. It doesn't tell you where though.
+
+Tests used for this project (a big thanks to the makers!):
+https://github.com/saarikoski-jules/gnl_unit_tests
+https://github.com/charMstr/GNL_lover
