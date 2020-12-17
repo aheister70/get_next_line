@@ -10,7 +10,7 @@ Char ** line = the address of a pointer to a character to be used to store the l
 Static variable(s) are allowed: Life time of a static variable is the entire run of a program. Allocation is during compilation.
 
 
-Memory leaks: system("leaks a.out"); By putting this in your main file, you will see if your program has memory leaks. It doesn't tell you where though.
+Memory leaks: system("leaks a.out"); By putting this in your main file, you will see if your program has memory leaks. It doesn't tell you where though. But a lot of mistakes that I made had to do with freeing pointers at the wrong place in the code.
 
 Tests used for this project (a big thanks to the makers!):
 https://github.com/saarikoski-jules/gnl_unit_tests
