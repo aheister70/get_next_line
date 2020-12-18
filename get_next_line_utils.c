@@ -6,7 +6,7 @@
 /*   By: aheister <aheister@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/26 14:20:17 by aheister      #+#    #+#                 */
-/*   Updated: 2020/12/10 20:21:08 by aheister      ########   odam.nl         */
+/*   Updated: 2020/12/18 09:31:47 by aheister      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,7 @@ size_t		ft_strlen(const char *s)
 char		*ft_realloc(char *left, int new_len)
 {
 	char	*new_left;
-	int		len;
 
-	len = (int)ft_strlen(left);
 	if (left)
 	{
 		new_left = malloc((new_len + 1) * sizeof(char));
